@@ -22,7 +22,7 @@ scripts qui composent l'application.
 
 Pour lancer le serveur :	./serveur NUMERO_DE_PORT
 
-#Renseigner un entier pour le serveur qui correspond à l'intervalle de temps
+Renseigner un entier pour le serveur qui correspond à l'intervalle de temps
 signalant l'approche de la validation d'une offre en SECONDES. 
 Il y a 3 appels sous la forme : ("OFFRE EUR. X fois." jusqu'à 3 fois)
 
