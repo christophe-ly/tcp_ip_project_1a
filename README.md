@@ -1,21 +1,18 @@
 
 # PROJET PROGRAMMATION SYSTEME - LY Christophe et LI Joey
 
---------------------------------------------------------
-
 # I. Présentation du sujet 
 
-Au cours de ce projet, nous avons été amené à mettre en place une application
+Au cours de ce projet à l'Ecole des Mines de Saint-Etienne, nous avons été amené à mettre en place une application
 client/serveur multithread communiquant via des sockets TCP/IP. Notre choix
 d'application s'est porté sur une plateforme d'enchère où différents clients
 peuvent se connecter afin de saisir des offres d'enchères. Les offres saisies 
 sont envoyées au serveur qui fait office d'intermédiaire entre les clients. 
 
---------------------------------------------------------
 
 # II. Mode opératoire
 
-	# 1. Initialisation
+## 1. Initialisation
 
 Avant de commencer, un makefile est fourni et permet de compiler les différents
 scripts qui composent l'application.
@@ -34,7 +31,7 @@ il ne peut y avoir que 5 clients simultanément (nous avons fixé la taille de l
 cohorte à 5).
 
 
-	# 2. Fonctionnement
+## 2. Fonctionnement
 
 La session du client s'ouvre, il peut saisir une offre d'enchère.
 	Si l'offre est la meilleure, le serveur le lui dit.
@@ -52,8 +49,6 @@ Si aucune meilleure offre n'est envoyée, le timer continue ses appels jusqu'au
 
 A la fin de ce dernier appel, tous les clients sont déconnectés. L'enchère est 
 finie.
-
---------------------------------------------------------
 
 # III. Organisation du programme
 
